@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Template</title>
+    <title>Fluentr</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,10 +19,22 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <!-- Typed.js-->
+    <script src="js/typed.js"></script>
 
-  </head>
 
-  <body>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+      <script>
+              AOS.init();
+                  </script>
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
       <i class="fa fa-bars"></i>
@@ -33,7 +45,7 @@
           <i class="fa fa-times"></i>
         </a>
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#top">Start Bootstrap</a>
+          <a class="js-scroll-trigger" href="#top">Fluentr</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="#top">Home</a>
@@ -55,13 +67,32 @@
 
     <!-- Header -->
     <header class="header" id="top">
-      <div class="text-vertical-center">
-        <h1>Start Bootstrap</h1>
-        <h3>Free Bootstrap Themes &amp; Templates</h3>
+			<div class="text-vertical-center">
+				<video autoplay loop muted poster="screenshot.jpg" id="background">
+					<source src="video.mp4" type="video/mp4">
+				</video>
+        <img style="max-width: 80px;" src="TEST1.png">
+        <h1>Fluentr</h1>
+				<h2>
+					<div class="type-wrap">
+					<span id="typed3"></span>
+					</div>
+					<h2/>
+					<script>
+					var typed3 = new Typed('#typed3', {
+						strings: ['BONJOUR', 'HOLA', 'GUTEN TAG'],
+						typeSpeed: 50,
+						backSpeed: 50,
+						backDelay: 2000,
+						showCursor: true,
+						smartBackspace: true, // this is a default
+						loop: true
+					});
+				</script>
         <br>
-        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a>
-      </div>
-    </header>
+				<a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a>
+    </div>
+		</header>
 
     <!-- About -->
     <section id="about" class="about">
@@ -69,13 +100,15 @@
         <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
         <p class="lead">This theme features some wonderful photography courtesy of
           <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
-      </div>
+    </div>
       <!-- /.container -->
     </section>
+
 
     <!-- Services -->
     <section id="services" class="services bg-primary text-white">
       <div class="container">
+        <div class="item" data-aos="fade-up">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto">
             <h2>Our Services</h2>
@@ -136,6 +169,7 @@
             </div>
             <!-- /.row (nested) -->
           </div>
+          </div>
           <!-- /.col-lg-10 -->
         </div>
         <!-- /.row -->
@@ -155,17 +189,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h2>Our Work</h2>
+            <h2>Who We Are</h2>
             <hr class="small">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-1.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
+            <div class="item" data-aos="fade-up">
+						<div class="row">
+            <div class="col-md-6">
                 <div class="portfolio-item">
                   <a href="#">
                     <img class="img-portfolio img-fluid" src="img/portfolio-2.jpg">
@@ -192,6 +220,7 @@
           </div>
           <!-- /.col-lg-10 -->
         </div>
+        
         <!-- /.row -->
       </div>
       <!-- /.container -->
@@ -215,14 +244,15 @@
       </small>
     </section>
 
-    <!-- Footer -->
-    <footer>
+		<!-- Footer -->
+		<footer>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h4>
-              <strong>Start Bootstrap</strong>
-            </h4>
+        <div class="item" data-aos="fade-up">
+				<div class="row">
+					<div class="col-lg-10 mx-auto text-center">
+						<h4>
+							<strong>Fluentr</strong>
+						</h4>
             <p>3481 Melrose Place
               <br>Beverly Hills, CA 90210</p>
             <ul class="list-unstyled">
@@ -257,11 +287,11 @@
           </div>
         </div>
       </div>
+      </div>
       <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
         <i class="fa fa-chevron-up fa-fw fa-1x"></i>
       </a>
     </footer>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -271,6 +301,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   </body>
 
