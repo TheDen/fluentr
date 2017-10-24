@@ -281,6 +281,12 @@ footer {
   color: black !important;
 }
 
+.fa-header:before {
+    content: "\f0ab" !important;
+    color: black;
+
+  }
+
 .fa-cloud:before {
   content: "\f19d" !important;
 }
@@ -297,9 +303,13 @@ a {
   color: black;
 }
 
- .typed-cursor {
+.type-wrap {
+}
+
+.typed-cursor {
         opacity: 1;
         animation: blink .7s infinite;
+        color: whitesmoke;
     }
 
     @keyframes blink {
@@ -354,3 +364,20 @@ a {
 	background-color: white !important;
 }
 
+
+div.background {
+  //background: url(klematis.jpg) repeat;
+//  border: 2px solid black;
+}
+
+div.transbox {
+  float: center;
+  min-width: 20%;
+  padding: 2%;
+  margin: 30%;
+  background-color: black;
+  //  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  z-index: -2000;
+}
