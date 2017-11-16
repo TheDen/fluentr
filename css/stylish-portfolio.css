@@ -29,8 +29,8 @@ body {
 }
 
 .text-vertical-center h1 {
-  font-size: 4.5em;
-  font-weight: 700;
+//  font-size: 2em;
+//  font-weight: 700;
   margin: 0;
   padding: 0;
 }
@@ -160,7 +160,7 @@ hr.small {
 /* Header */
 
 .header {
-  position: relative;
+  position: inline;
   display: table;
   width: 100%;
   height: 100%;
@@ -170,6 +170,22 @@ hr.small {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+h1 {
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	font-size: 8em;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
+	padding: 2000px;
+}
+
+h1:after {
+	content: "fluentr";
+	position: absolute; left: 5px; top: 3px;
+	color: rgba(255,0,0,0.5);   
 }
 
 
@@ -309,7 +325,7 @@ a {
 .typed-cursor {
         opacity: 1;
         animation: blink .7s infinite;
-        color: whitesmoke;
+        color: navajowhite;
     }
 
     @keyframes blink {
@@ -372,12 +388,22 @@ div.background {
 
 div.transbox {
   float: center;
-  min-width: 20%;
   padding: 2%;
-  margin: 30%;
+  //margin: 30%;
   background-color: black;
   //  border: 1px solid black;
-  opacity: 0.9;
+  opacity: 0.4;
   filter: alpha(opacity=60); /* For IE8 and earlier */
   z-index: -2000;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    z-index: 2;
+    background-image: linear-gradient(to bottom, transparent 80%, black 100%);
+    opacity: 1.0;
 }
