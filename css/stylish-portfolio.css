@@ -297,18 +297,16 @@ footer {
   color: black !important;
 }
 
-.fa-header:before {
-    content: "\f0ab" !important;
-    color: black;
-
+.fa-shield:before {
+    content: "\f135" !important;
   }
 
 .fa-cloud:before {
-  content: "\f19d" !important;
+  content: "\f040" !important;
 }
 
 .fa-compass:before {
-  content: "\f040" !important;
+  content: "\f19d" !important;
 }
 
 .fa-flask:before {
@@ -325,7 +323,7 @@ a {
 .typed-cursor {
         opacity: 1;
         animation: blink .7s infinite;
-        color: navajowhite;
+        color: grey;
     }
 
     @keyframes blink {
