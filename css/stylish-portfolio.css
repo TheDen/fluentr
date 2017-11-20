@@ -19,7 +19,8 @@ html, body {
 }
 
 body {
-  font-family: 'helvetica','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/*  font-family: ''helvetica','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+font-family: 'Open Sans', sans-serif;
 }
 
 .text-vertical-center {
@@ -175,16 +176,17 @@ hr.small {
 h1 {
 	display: inline;
 	position: relative;
-	font: '200px Helvetica', Sans-Serif;
-	font-size: 8em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700 !important;
+	font-size: 13vh;
 	letter-spacing: -5px;
 	color: rgba(0,0,255,0.5); 
 	padding: 2000px;
 }
 
 h1:after {
-	content: "fluentr";
-	position: absolute; left: 5px; top: 3px;
+	content: "FLUENTR";
+	position: absolute; left: 4px; top: 4px;
 	color: rgba(255,0,0,0.5);   
 }
 
