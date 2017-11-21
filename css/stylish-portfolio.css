@@ -292,11 +292,11 @@ footer {
 /* CUSTOM */
 
 .bg-primary {
-  background-color: black !important;
+  background-color: white !important;
 }
 
 .text-primary {
-  color: black !important;
+  color: white !important;
 }
 
 .fa-shield:before {
@@ -314,6 +314,12 @@ footer {
 .fa-flask:before {
   content: "\f0e6";
 }
+
+.text-white {
+  color: black!important;
+    }
+
+
 
 a {
   color: black;
@@ -377,7 +383,8 @@ a {
 }
 
 .about {
-	background-color: white !important;
+	background-color: black !important;
+  color: white !important;
 }
 
 
