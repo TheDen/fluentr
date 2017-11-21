@@ -65,7 +65,7 @@ font-family: 'Open Sans', sans-serif;
   color: #333;
   border: none;
   border-radius: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(226, 226, 226);
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
@@ -190,14 +190,14 @@ h1 {
 	font-weight: 700 !important;
 	font-size: 13vh;
 	letter-spacing: -5px;
-	color: rgba(0,0,255,0.5); 
+  color: rgba(181,37,54,0.6);
 	padding: 2000px;
 }
 
 h1:after {
-	content: "FLUENTR";
+	content: "fluentr";
 	position: absolute; left: 4px; top: 4px;
-	color: rgba(255,0,0,0.5);   
+  color: rgba(39,69,160,1);
 }
 
 
