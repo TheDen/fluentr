@@ -62,15 +62,18 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .btn-light {
-  color: #333;
+  color: white;
   border: none;
   border-radius: 0;
-  background-color: rgb(226, 226, 226);
+  background-color: black; 
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
   color: #333;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 
@@ -341,7 +344,7 @@ a {
 .typed-cursor {
         opacity: 1;
         animation: blink .7s infinite;
-        color: grey;
+        color: black;
     }
 
     @keyframes blink {
@@ -423,4 +426,16 @@ div.transbox {
     z-index: 2;
     background-image: linear-gradient(to bottom, transparent 80%, black 100%);
     opacity: 1.0;
+}
+
+#blackBar{
+  z-index: -1;
+  //position:fixed;
+ // top: 20px;
+//  left:0;
+  width:100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+//  height:60px;
+background-color: rgba(255,255,255,0.4);
 }
