@@ -12,13 +12,15 @@ html, body {
 }
 
 ::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+  background: black; /* WebKit/Blink Browsers */
+  color: white;
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: black; /* Gecko Browsers */
+  color: white;
 }
 
-.text-vertical-center {
+.text-vertical-center, .map, .language {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -75,7 +77,6 @@ font-family: 'Open Sans', sans-serif;
   border-width: 1px;
   border-color: black;
 }
-
 
 /* Custom Horizontal Rule */
 
@@ -193,13 +194,13 @@ h1 {
 	font-weight: 700 !important;
 	font-size: 13vh;
 	letter-spacing: -5px;
-  color: rgba(181,37,54,0.6);
+  color: rgba(181,37,54,1);
 	padding: 2000px;
 }
 
 h1:after {
 	content: "fluentr";
-	position: absolute; left: 4px; top: 4px;
+	position: absolute; left: 4px; bottom: 6px;
   color: rgba(39,69,160,1);
 }
 
@@ -339,12 +340,13 @@ a {
 }
 
 .type-wrap {
+  color: white;
 }
 
 .typed-cursor {
         opacity: 1;
         animation: blink .7s infinite;
-        color: black;
+        color: white;
     }
 
     @keyframes blink {
@@ -437,5 +439,5 @@ div.transbox {
   padding-bottom: 20px;
   padding-top: 20px;
 //  height:60px;
-background-color: rgba(255,255,255,0.4);
+background-color: rgba(0,0,0,0.6);
 }
