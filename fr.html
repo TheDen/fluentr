@@ -28,9 +28,15 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
 
-  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="theme-color" content="#ffffff">
+
   </head>
 
 <body>
@@ -41,9 +47,8 @@
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
       <i class="fa fa-bars"></i>
     </a>
-    <a style="display: inline-block; float: left; text-decoration: none;" href="fr.html">
-      <img style="max-width: 7vh; padding-left: 5px; padding-top: 5px;" draggable="false" src="./TEST1.png">
-    </a>
+    <a class="language" style="display: inline-block; float: left; text-decoration: none;" draggable="false" href="index.html">
+      <img style="padding-left: 10px; padding-top: 10px;" draggable="false" src="./TEST2-aus.png">
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
@@ -72,22 +77,22 @@
     </nav>
 
     <!-- Header -->
-    <header class="header" id="top">
-      <div class="text-vertical-center">
+    <span id="top"></span>
+    <div id="blackBar">
+      <header class="header">
+        <div class="text-vertical-center">
         <video autoplay loop muted id="background">
-          <source src="./Sydneybw_edit.mp4" type="video/mp4">
+          <source src="./Sydneybw_edit2.mp4" type="video/mp4">
         </video>
         <div class="background">
-          <div id="blackBar">
-          <img style="max-width: 190px; padding-bottom: 0px;" draggable="false" src="./TEST7.png">
+            <img style="padding-bottom: 0px;" draggable="false" src="./TEST7.png">
           <br />
-            <h1>fluentr</h1>
-            <h2>
-              <div class="type-wrap">
-                <span id="typed3"></span>
-              </div>
+          <h1><span id="kerning">f</span>luentr</h1>
+          <h2>
+            <div class="type-wrap">
+              <span id="typed3"></span>
               <h2/>
-					<script>
+              <script>
 					var typed3 = new Typed('#typed3', {
 						strings: ['BONJOUR', 'HELLO'],
 						typeSpeed: 50,
@@ -99,11 +104,12 @@
 					});
 				</script>
         <br>
-        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">En savoir plus</a>
+        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a>
       </div>
         <br>
+      </div>
+    </div>
   </div>
-</div>
 		</header>
 
     <!-- About -->
@@ -134,7 +140,7 @@
                   <h4>
                     <strong>Premiere consultation gratuite</strong>
                   </h4>
-                  <p>Nous vous aidons à ciblez votre apprentissage en mettant en place un programme unique, basé sur vos besoins et votre personnalité. </p>
+                  <p>Nous vous aidons à ciblez votre apprentissage en mettant en place un programme unique, basé sur vos besoins et votre personnalité.</p>
                   <a href="mailto:fluentrsydney@gmail.com" class="btn btn-light">En Savoir Plus</a>
                 </div>
               </div>
@@ -245,10 +251,10 @@
     </aside>
     -->
     <!-- Map -->
-        <div style="-webkit-filter: grayscale(100%);
-                filter: grayscale(100%);">
+    <div style="-webkit-filter: grayscale(100%);
+      filter: grayscale(100%);">
     <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3+barncleuth+square,+Sydney&amp;aq=0&amp;oq=Fluentr&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Fluentr&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3+barncleuth+square,+Sydney&amp;aq=0&amp;oq=Fluentr&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Fluentr&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
       <br/>
       <small>
         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=3+barncleuth+square,+Sydney&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
