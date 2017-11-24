@@ -22,17 +22,17 @@ html, body {
 
 .text-vertical-center, .map, .language {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome and Opera */
 }
 
 body {
 /*  font-family: ''helvetica','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+//font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 }
 
 .text-vertical-center {
@@ -44,8 +44,8 @@ font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 .text-vertical-center h1 {
   font-size: 12vh;
   font-weight: 800;
-  font-family: 'Source Sans Pro';
-	font-style: italic;	
+  font-family: 'Open sans, 'Source Sans Pro';
+//	font-style: italic;	
 	color: white;
   margin: 0;
   padding: 0;
@@ -67,7 +67,8 @@ h1 {
 //  color: rgba(181,37,54,1);
  //  color: white;
  // padding: 2000px;
- background: -webkit-linear-gradient(-45deg,#2647a2, #bf1b2d);
+     background: -webkit-linear-gradient(-45deg,#05348d, #a30215);
+// background: -webkit-linear-gradient(-45deg,#2647a2, #bf1b2d);
 // background: -webkit-linear-gradient(-45deg,#0631a7, #c50016);
  -webkit-linear-gradient(-45deg,#2647a2, #bf1b2d);
  -webkit-background-clip: text;
@@ -94,6 +95,7 @@ h1:before {
 	color: black;
 }
 */
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -428,40 +430,13 @@ a {
 }
 
 
-div.background {
-  //background: url(klematis.jpg) repeat;
-//  border: 2px solid black;
-}
-
-div.transbox {
-  float: center;
-  padding: 2%;
-  //margin: 30%;
-  background-color: black;
-  //  border: 1px solid black;
-  opacity: 0.4;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  z-index: -2000;
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0px;
-    z-index: 2;
-    background-image: linear-gradient(to bottom, transparent 80%, black 100%);
-    opacity: 1.0;
-}
-
 #blackBar{
-  z-index: -1;
-/  width:100%;
+  z-index: -2;
+  width:100%;
   padding-bottom: 20px;
   padding-top: 20px;
 background-color: rgba(0,0,0,0.8);
-/    min-width: 100%;
+    min-width: 100%;
     min-height: 100%;
      background-size: cover;
 }
