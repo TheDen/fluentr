@@ -43,7 +43,7 @@ body {
 
 .text-vertical-center h1 {
   font-size: 12vh;
-  font-weight: 800;
+  font-weight: 700;
   //font-family: 'Open sans', 'Source Sans Pro';
 	/*	font-style: italic;	 */
 	color: white;
@@ -71,7 +71,6 @@ h1 {
 	 -webkit-text-fill-color: transparent;
 
 	 background: linear-gradient(-45deg, #ff0000, #0042ff);
-
 
 	 background-size: 150% 150%;
 	 -webkit-background-clip: text;
