@@ -50,8 +50,9 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-	display: inline
-	}
+	display: inline;
+  cursor: default;
+}
 
 #kerning {
 letter-spacing: 4px;
@@ -390,12 +391,14 @@ a {
 
 .type-wrap {
   color: rgba(255,255,255,0.5);
+  cursor: default;
 }
 
 .typed-cursor {
         opacity: 1;
         animation: blink .7s infinite;
         color: grey;
+        cursor: default;
     }
 
     @keyframes blink {
@@ -409,6 +412,10 @@ a {
             opacity: 1;
         }
     }
+
+.lead {
+cursor: default;
+}
 
 .img-circular{
   width: 200px;
