@@ -44,14 +44,14 @@ body {
 .text-vertical-center h1 {
   font-size: 12vh;
   font-weight: 800;
-  font-family: 'Open sans, 'Source Sans Pro';
-//	font-style: italic;	
+  //font-family: 'Open sans', 'Source Sans Pro';
+	/*	font-style: italic;	 */
 	color: white;
   margin: 0;
   padding: 0;
   position: relative;
-display: inline
-}
+	display: inline
+	}
 
 #kerning {
 letter-spacing: 4px;
@@ -59,22 +59,43 @@ letter-spacing: 4px;
 
 
 h1 {
-//  display: inline;
-  position: relative;
-  font-family: 'Source Sans Pro';
-  //font-size: 13vh;
-//  letter-spacing: 2px;
-//  color: rgba(181,37,54,1);
- //  color: white;
- // padding: 2000px;
-     background: -webkit-linear-gradient(-45deg,#05348d, #a30215);
-// background: -webkit-linear-gradient(-45deg,#2647a2, #bf1b2d);
-// background: -webkit-linear-gradient(-45deg,#0631a7, #c50016);
- -webkit-linear-gradient(-45deg,#2647a2, #bf1b2d);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
+	//  display: inline;
+	position: relative;
+	font-family: 'Source Sans Pro';
+	//font-size: 13vh;
+	//  letter-spacing: 2px;
+	// padding: 2000px;
+/	 -webkit-linear-gradient(-45deg,#2647a2, #bf1b2d);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
 
+	 background: linear-gradient(-45deg, #ff0000, #0042ff);
+
+
+	 background-size: 150% 150%;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 -webkit-animation: AnimationName 10s ease infinite;
+	 -moz-animation: AnimationName 10s ease infinite;
+	 -o-animation: AnimationName 10s ease infinite;
+	 animation: AnimationName 10s ease infinite;
+ }
+
+ @-webkit-keyframes AnimationName {
+	 0%{background-position:0% 50%}
+	 50%{background-position:100% 50%}
+	 100%{background-position:0% 50%}
+ }
+ @-moz-keyframes AnimationName {
+	 0%{background-position:0% 50%}
+	 50%{background-position:100% 50%}
+	 100%{background-position:0% 50%}
+ }
+ @keyframes AnimationName { 
+	 0%{background-position:0% 50%}
+	 50%{background-position:100% 50%}
+	 100%{background-position:0% 50%}
+ }
 
 /*
 h1:after {
