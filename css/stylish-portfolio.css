@@ -525,15 +525,15 @@ svg {
 .text-copy {
   fill: rgba(0,0,0,0.2);
   stroke: #163799;
-  stroke-dasharray: 160% 160%;
+  stroke-dasharray: 100% 100%;
   stroke-width: 2px;
-  -webkit-animation: stroke-offset 20s infinite linear;
-          animation: stroke-offset 20s infinite linear;
+  -webkit-animation: stroke-offset 25s infinite linear;
+          animation: stroke-offset 25s infinite linear;
 }
 
 .text-copy:nth-child(1) {
   stroke: #c2172a;
-  stroke-dashoffset: -200%;
+  stroke-dashoffset: -150%;
 }
 
 /*
