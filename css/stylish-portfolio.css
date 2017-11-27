@@ -59,12 +59,14 @@ letter-spacing: 4px;
 }
 
 @font-face {
-	font-family: 'JaapokkiRegular';
-	src:
-		url('jaapokki-regular.woff') format('woff');
-		url('jaapokki-regular.ttf') format('truetype');
-		font-weight: normal;
-		font-style: normal;
+  font-family: 'JaapokkiRegular';
+  src: url('jaapokki-regular.eot');
+  src:
+  url('jaapokki-regular.woff') format('woff'),
+  url('jaapokki-regular.ttf') format('truetype'),
+  url("jaapokki-regular.svg#jaapokki") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:400|Open+Sans:700);
