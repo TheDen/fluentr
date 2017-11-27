@@ -529,6 +529,7 @@ svg {
   stroke-width: 2px;
   -webkit-animation: stroke-offset 25s infinite linear;
           animation: stroke-offset 25s infinite linear;
+          animation-direction: alternate;
 }
 
 .text-copy:nth-child(1) {
