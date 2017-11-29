@@ -11,52 +11,6 @@ html, body {
   height: 100%;
 }
 
-::selection {
-  background: black; /* WebKit/Blink Browsers */
-  color: white;
-}
-::-moz-selection {
-  background: black; /* Gecko Browsers */
-  color: white;
-}
-
-.text-vertical-center, .map, .language {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-  supported by Chrome and Opera */
-}
-
-body {
-/*  font-family: ''helvetica','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-//font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
-}
-
-.text-vertical-center {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.text-vertical-center h1 {
-  font-size: 12vh;
-//  font-weight: 500;
-  //font-family: 'Open sans', 'Source Sans Pro';
-	/*	font-style: italic;	 */
-//	color: white;
-  margin: 0;
-  padding: 0;
-  position: relative;
-	display: inline;
-  cursor: default;
-}
-
-#kerning {
-letter-spacing: 4px;
-}
 
 @font-face {
   font-family: 'JaapokkiRegular';
@@ -69,66 +23,53 @@ letter-spacing: 4px;
   font-style: normal;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Oswald:400|Open+Sans:700);
+::selection {
+  background: black; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: black; /* Gecko Browsers */
+  color: white;
+}
+
+.text-vertical-center, .map, .language, .OurServices {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome and Opera */
+}
+
+body {
+}
+
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+  font-size: 12vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+	display: inline;
+  cursor: default;
+}
+
+#kerning {
+letter-spacing: 4px;
+}
 
 h1 {
 	//  display: inline;
 	position: relative;
-	//	font-family: 'JaapokkiRegular', 'Source Sans Pro';
-	font-family: 'Montserrat';
 	color: white;
 	text-shadow: 4px 10px rgba(red,0.7);
 }
-
-
-/*
-	 background: linear-gradient(-45deg, #ff0000, #0042ff);
-
-	 background-size: 150% 150%;
-	 -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent;
-	 -webkit-animation: AnimationName 10s ease infinite;
-	 -moz-animation: AnimationName 10s ease infinite;
-	 -o-animation: AnimationName 10s ease infinite;
-	 animation: AnimationName 10s ease infinite;
- }
-
- @-webkit-keyframes AnimationName {
-	 0%{background-position:0% 50%}
-	 50%{background-position:100% 50%}
-	 100%{background-position:0% 50%}
- }
- @-moz-keyframes AnimationName {
-	 0%{background-position:0% 50%}
-	 50%{background-position:100% 50%}
-	 100%{background-position:0% 50%}
- }
- @keyframes AnimationName { 
-	 0%{background-position:0% 50%}
-	 50%{background-position:100% 50%}
-	 100%{background-position:0% 50%}
- }
-*/
-
-/*
-h1:after {
-	content: "fluentr";
-	position: absolute; left: -6px; bottom: 8px;
-//	  color: rgba(39,69,160,1); 
-	color: white;
-//		color: rgba(181,37,54,1); // red
-}
-*/
-
-/*
-h1:before {
-	content: "fluentr";
-	position: absolute; left: 0px; bottom: 6px;
-	//  color: rgba(39,69,160,1);
-	// color: rgba(181,37,54,1); // red
-	color: black;
-}
-*/
 
 /* Custom Button Styles */
 
@@ -165,7 +106,6 @@ hr.small {
   max-width: 100px;
 }
 
-
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -181,7 +121,7 @@ hr.small {
   -o-transition: all .4s ease 0s;
   transition: all .4s ease 0s;
   transform: translateX(250px);
-  background: #222;
+  background: rgba(0, 0, 0,0.8);
 }
 
 .sidebar-nav {
@@ -260,7 +200,7 @@ hr.small {
   display: table;
   width: 100%;
   height: 100%;
-padding-top: 10%;
+  padding-top: 2%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -273,7 +213,6 @@ padding-top: 10%;
   padding: 50px 0;
 }
 
-
 /* Services */
 
 .services {
@@ -284,21 +223,18 @@ padding-top: 10%;
   margin-bottom: 30px;
 }
 
-
 /* Callout */
-
 .callout {
   display: table;
   width: 100%;
   height: 400px;
   color: #fff;
-  background: url(../img/callout.jpg) no-repeat center center scroll;
+//  background: url(../img/callout.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
 
 /* Portfolio */
 
@@ -393,12 +329,6 @@ footer {
 
 .text-white {
   color: black!important;
-    }
-
-
-
-a {
-  color: black;
 }
 
 .type-wrap {
@@ -429,17 +359,6 @@ a {
 cursor: default;
 }
 
-.img-circular{
-  width: 200px;
-  height: 200px;
-  background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAoLAAAAJDdmMGEwMWJiLTIxNDktNGVmOC1hNmE4LTAwZjQwMjAxMzQ5Yw.jpg');
-  background-size: cover;
-  display: block;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-}
-
 .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -448,18 +367,19 @@ cursor: default;
 }
 
 #background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
 }
+
 .container h1 {
     color: white;
 }
@@ -469,16 +389,15 @@ cursor: default;
   color: white !important;
 }
 
-
 #blackBar{
   z-index: -2;
   width:100%;
   padding-bottom: 20px;
   padding-top: 20px;
-	background-color: rgba(0,0,0,0.8);
-    min-width: 100%;
-    min-height: 100%;
-     background-size: cover;
+  background-color: rgba(0,0,0,0.8);
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
 }
 
 img {
@@ -510,9 +429,11 @@ HTML, BODY {
 */
 
 .maintitle {
-//  background: #082330;
-//  background-size: .12em 100%;
- font: 16vh JaapokkiRegular;
+/*  background-color: rgba(0, 0, 0,0.5);
+    background-size: 1em 100% !important; */
+  font: 16vh 'JaapokkiRegular', 'Helvetica';
+  min-height: 120vh 100%;
+
 }
 
 .text--line {
@@ -525,7 +446,7 @@ svg {
 }
 
 .text-copy {
-  fill: rgba(0,0,0,0.2);
+	fill: rgba(0,0,0,0.2);
   stroke: #163799;
   stroke-dasharray: 100% 100%;
   stroke-width: 2px;
@@ -536,7 +457,7 @@ svg {
 
 .text-copy:nth-child(1) {
   stroke: #c2172a;
-  stroke-dashoffset: -150%;
+  stroke-dashoffset: -200%;
 }
 
 /*
@@ -559,7 +480,7 @@ svg {
 
 @keyframes stroke-offset {
  100% {
-    stroke-dashoffset: 350%;
+    stroke-dashoffset: 300%;
     stroke-dasharray: 100% 100%;
   }
 }
