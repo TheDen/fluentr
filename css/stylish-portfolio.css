@@ -411,11 +411,11 @@ img.animated {
   0% {
 		-webkit-filter: drop-shadow(1px 1px 15px black);
   }
-  
+ 
   50% {
     -webkit-filter: drop-shadow(1px 1px 20px black);
   }
-  
+
   100% {
     -webkit-filter: drop-shadow(1px 1px 15px black);
   }
@@ -450,14 +450,16 @@ svg {
   stroke: #163799;
   stroke-dasharray: 100% 100%;
   stroke-width: 2px;
-  -webkit-animation: stroke-offset 25s infinite linear;
-          animation: stroke-offset 25s infinite linear;
+  -webkit-animation: stroke-offset 15s infinite linear;
+          animation: stroke-offset 15s infinite linear;
           animation-direction: alternate;
 }
 
 .text-copy:nth-child(1) {
   stroke: #c2172a;
-  stroke-dashoffset: -200%;
+  fill: rgba(0,0,0,0.2);
+  stroke-dashoffset: -10%;
+  stroke-dasharray: 200% 200%;
 }
 
 /*
@@ -472,16 +474,18 @@ svg {
 */
 
 @-webkit-keyframes stroke-offset {
- 200% {
-    stroke-dashoffset: 200%;
-    stroke-dasharray: 200% 200%;
-  }
-}
-
-@keyframes stroke-offset {
- 100% {
-    stroke-dashoffset: 300%;
+ 1% {
+    stroke-dashoffset: 100%;
     stroke-dasharray: 100% 100%;
   }
 }
 
+/*
+@keyframes stroke-offset {
+ 2% {
+   stroke: #c2172a;
+    stroke-dashoffset: -3%;
+    stroke-dasharray: 100% 100%;
+  }
+}
+*/
