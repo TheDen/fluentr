@@ -291,16 +291,19 @@ footer {
   padding: 100px 0;
   background-color: white;
 }
-
+/*
 #to-top {
-  font-size: 1em;
+//  font-size: 1em;
   position: fixed;
   //right: 5px;
-  bottom: 5px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 3px;
   display: none;
-  padding: 15px 20px;
+  //  padding: 15px 20px;
+  padding: .75rem .75rem .75rem 1rem
 }
-
+*/
 /* CUSTOM */
 
 .bg-primary {
