@@ -448,12 +448,13 @@ svg {
 .text-copy {
 	fill: rgba(0,0,0,0.2);
   stroke: #163799;
-  stroke-dasharray: 100% 100%;
   stroke-width: 1.5px;
+}
+  /*
 //  -webkit-animation: stroke-offset 15s infinite linear;
 //          animation: stroke-offset 15s infinite linear;
 //          animation-direction: alternate
-}
+*/
 /*
 .text-copy:nth-child(1) {
   stroke: #c2172a;
