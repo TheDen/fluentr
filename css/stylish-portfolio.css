@@ -449,19 +449,19 @@ svg {
 	fill: rgba(0,0,0,0.2);
   stroke: #163799;
   stroke-dasharray: 100% 100%;
-  stroke-width: 2px;
-  -webkit-animation: stroke-offset 15s infinite linear;
-          animation: stroke-offset 15s infinite linear;
-          animation-direction: alternate;
+  stroke-width: 1.5px;
+//  -webkit-animation: stroke-offset 15s infinite linear;
+//          animation: stroke-offset 15s infinite linear;
+//          animation-direction: alternate
 }
-
+/*
 .text-copy:nth-child(1) {
   stroke: #c2172a;
   fill: rgba(0,0,0,0.2);
   stroke-dashoffset: -10%;
   stroke-dasharray: 200% 200%;
 }
-
+*/
 /*
 .text-copy:nth-child(2) {
   stroke: grey;
@@ -472,14 +472,14 @@ svg {
   stroke-dashoffset: 21%;
 }
 */
-
+/*
 @-webkit-keyframes stroke-offset {
  1% {
     stroke-dashoffset: 100%;
     stroke-dasharray: 100% 100%;
   }
 }
-
+*/
 /*
 @keyframes stroke-offset {
  2% {
