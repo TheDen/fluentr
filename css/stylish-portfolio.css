@@ -295,7 +295,7 @@ footer {
 #to-top {
   font-size: 1em;
   position: fixed;
-  right: 5px;
+  //right: 5px;
   bottom: 5px;
   display: none;
   padding: 15px 20px;
