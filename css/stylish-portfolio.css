@@ -45,6 +45,14 @@ html, body {
 body {
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: 'JaapokkiRegular', 'Helvetica';
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
 .text-vertical-center {
   display: table-cell;
   text-align: center;
@@ -87,9 +95,9 @@ h1 {
 
 .btn-light {
   color: white;
-  border: none;
+  border-color: white;
   border-radius: 0;
-  background-color: black; 
+  background-color: black;
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
@@ -331,7 +339,7 @@ footer {
 }
 
 .text-white {
-  color: black!important;
+  color: black !important;
 }
 
 .type-wrap {
@@ -388,8 +396,8 @@ cursor: default;
 }
 
 .about {
-	background-color: black !important;
-  color: white !important;
+	background-color: white !important;
+  color: black !important;
 }
 
 #blackBar{
