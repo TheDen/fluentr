@@ -431,23 +431,23 @@ img.animated {
 
 @-webkit-keyframes filter-animation {
   0% {
-		-webkit-filter: drop-shadow(1px 1px 1px #163799);
+		-webkit-filter: drop-shadow(1px 1px 2px #163799);
   }
 
 	25% {
-		-webkit-filter: drop-shadow(1px 1px 1px black);
+		-webkit-filter: drop-shadow(1px 1px 2px black);
 	}
 
 	50% {
-		-webkit-filter: drop-shadow(1px 1px 1px #163799);
+		-webkit-filter: drop-shadow(1px 1px 2px #163799);
 	}
 
 	75% {
-		-webkit-filter: drop-shadow(1px 1px 1px #c2172a);
+		-webkit-filter: drop-shadow(1px 1px 2px black);
   }
 
   100% {
-    -webkit-filter: drop-shadow(1px 1px 1px #163799);
+    -webkit-filter: drop-shadow(1px 1px 2px #163799);
   }
 }
 
