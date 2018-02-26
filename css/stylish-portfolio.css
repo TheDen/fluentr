@@ -526,24 +526,25 @@ svg {
 
 #showSingle1 {
   display:inline-block;
-	color: white !important;
+  color: white !important;
   font-family: 'JaapokkiRegular', 'Helvetica';
-	cursor: pointer;
+  cursor: pointer;
   width:200px;
   height:200px;
   background-color:#163799;
   line-height:50px;
   text-align:center;
   text-decoration: none;
-	border-radius: 50%;
-	margin: 1em;
+  border-radius: 50%;
+  margin: 1em;
   line-height: 200px;
   text-align: center;
+  border: 1px solid transparent;
 }
 
 #showSingle2 {
   display:inline-block;
-	color: white !important;
+  color: white !important;
   font-family: 'JaapokkiRegular', 'Helvetica';
   cursor: pointer;
   width:200px;
@@ -556,6 +557,11 @@ svg {
   border-radius: 50%;
   margin: 1em;
   line-height: 200px;
+  border: 1px solid transparent;
+}
+
+#showSingle2:hover, #showSingle1:hover {
+  border: 1px solid #212529;
 }
 
 a.active {
@@ -595,6 +601,3 @@ a {
   text-decoration: none !important;
 }
 
-hr.styled {
-    border-top: 1px solid #212529;
-  }
