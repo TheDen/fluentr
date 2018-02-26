@@ -349,7 +349,7 @@ footer {
 }
 
 .text-white {
-  color: black !important;
+  color: #212529 !important;
 }
 
 .type-wrap {
@@ -409,7 +409,7 @@ cursor: default;
 
 .about {
 //	background-color: white !important;
- // color: black !important;
+  color: #212529 !important;
 }
 
 #blackBar{
@@ -596,5 +596,5 @@ a {
 }
 
 hr.styled {
-    border-top: 1px solid black;
+    border-top: 1px solid #212529;
   }
