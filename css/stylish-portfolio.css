@@ -306,7 +306,7 @@ hr.small {
 /* Footer */
 
 footer {
-//  padding: 100px 0;
+  padding-bottom: 50px !important;
   //background-color: white;
 }
 /*
@@ -594,3 +594,7 @@ div.active {
 a {
   text-decoration: none !important;
 }
+
+hr.styled {
+    border-top: 1px solid black;
+  }
