@@ -539,7 +539,6 @@ svg {
   margin: 1em;
   line-height: 200px;
   text-align: center;
-  border: 1px solid transparent;
 }
 
 #showSingle2 {
@@ -557,11 +556,6 @@ svg {
   border-radius: 50%;
   margin: 1em;
   line-height: 200px;
-  border: 1px solid transparent;
-}
-
-#showSingle2:hover, #showSingle1:hover {
-  border: 1px solid #212529;
 }
 
 a.active {
