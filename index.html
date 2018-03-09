@@ -15,18 +15,13 @@
     <!-- Custom CSS -->
     <link ref="preload" href="css/stylish-portfolio.css" rel="stylesheet">
     <link rel="dns-prefetch, stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
-    <!--    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <meta name="theme-color" content="#ffffff">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76175181-7"></script>
@@ -62,321 +57,250 @@ gtag('config', 'UA-76175181-7');
     </script>
   </head>
   <body>
-
     <div id="gradient" />
-
-  </script>
-  <!-- Navigation -->
-  <!--
-  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-    <i class="fa fa-bars"></i>
-  </a>
-  -->
-<!--  <a class="language" style="display: inline-block; float: left; text-decoration: none;" draggable="false" href="fr.html">
-    <img style="max-width: 100vh; padding-left: 10px; padding-top: 10px;" draggable="false" src="./TEST2.png">
-    -->
-    <!--
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-          <i class="fa fa-times"></i>
-        </a>
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#top">Fluentr</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#top">Home</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
-        </li>
-      </ul>
-    </nav>
-    -->
     <!-- Header -->
-		<span id="top"></span>
-			<header class="header">
-				<div class="text-vertical-center">
-					<!--            <video autoplay loop playsinline muted id="background" poster="./img/poster.png" laysinline>
-						<source src="./SydneyBackdrop.mp4" preload="auto" type="video/mp4">
-					</video>
-					-->
-					<div class="background">
-							<img class="animated" style="max-width: 290px; padding-bottom: 0px;" draggable="false" src="./FLUENTR.png">
+    <span id="top"></span>
+    <header class="header">
+      <div class="text-vertical-center">
+        <img class="animated" style="max-width: 290px; padding-bottom: 0px;" draggable="false" src="./FLUENTR.png">
+        <div class="animated fadeIn">
+          <div class="maintitle">
+            fluentr
+          </div>
+        </div>
+        <h2>
+          <div class="type-wrap">
+            <span id="typed3"></span>
+            <h2/>
+            <!-- Typed.js-->
+            <script src="js/typed.js"></script>
+            <script>
+              var typed3 = new Typed('#typed3', {
+                strings: ['BONJOUR', 'HELLO', 'MERCI BEAUCOUP', 'AU REVOIR', 'THANK YOU', 'BONNE NUIT', 'A DEMAIN', 'NICE TO MEET YOU'],
+                typeSpeed: 50,
+                backSpeed: 50,
+                backDelay: 2000,
+                showCursor: true,
+                smartBackspace: true,
+                loop: true
+              });
+            </script>
+            <br>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="animated fadeup">
+        <div class="container text-center">
+          <div class="animated fadeInUp">
+            <h2 style="cursor: default;" >Become fluentr</h2>
+            <p class="lead"></a>French and English lessons deliveries to help to translate who you are.</p>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Services -->
+    <div class="row text-center">
+      <div class="col-lg-10 mx-auto">
+        <br />
+        <div class="animated fadeIn">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-5x">
+                  <i class="icon-magic-wand"></i>
+                </span>
+                <h4>
+                  <strong>What's your size?</strong>
+                </h4>
+                <p>Our teachers will target your level and tailor for you an adapted learning program based on your needs and targets.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-5x">
+                  <i class="icon-clock"></i>
+                </span>
+                <h4>
+                  <strong>Anytime / Anywhere</strong>
+                </h4>
+                <p>Our services are available from 6am to 10pm, providing you the best options to welcome a new language as a daily routine.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-5x">
+                  <i class="icon-graduation"></i>
+                </span>
+                <h4>
+                  <strong>Come as you are</strong>
+                </h4>
+                <p>From beginners to advanced, HSC or DELF students, our tutors are qualified native french speakers who will help you achieve your goals </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="item" data-aos="fade-up">
+          <h2>Choose a course</h2>
+          <a  href="#services" id="showSingle1" class="showSingle" target="1">English</a>
+          <a  href="#services" id="showSingle2" class="showSingle" target="2">French</a>
+        </div>
+        <section id="services" class="services bg-primary text-white">
+          <div id="div1" class="targetDiv" style="display: none !important;">
             <div class="animated fadeIn">
-							<div class="maintitle">
-								fluentr
-							</div>
-						</div>
-						<h2>
-							<div class="type-wrap">
-								<span id="typed3"></span>
-								<h2/>
-								<!-- Typed.js-->
-								<script src="js/typed.js"></script>
-								<script>
-									var typed3 = new Typed('#typed3', {
-										strings: ['BONJOUR', 'HELLO', 'MERCI BEAUCOUP', 'AU REVOIR', 'THANK YOU', 'BONNE NUIT', 'A DEMAIN', 'NICE TO MEET YOU'],
-										typeSpeed: 50,
-										backSpeed: 50,
-										backDelay: 2000,
-										showCursor: true,
-										smartBackspace: true, // this is a default
-										loop: true
-									});
-								</script>
-								<br>
-								<!--                <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a> -->
-							</div>
-						</div>
-					</div>
-			</header>
-			<!-- About -->
-			<section id="about" class="about">
-				<div class="animated fadeup">
-					<div class="container text-center">
-						<div class="animated fadeInUp">
-							<h2 style="cursor: default;" >Become fluentr</h2>
-							<p class="lead"></a>French and English lessons deliveries to help to translate who you are.</p>
-					</div>
-				</div>
-				<!-- /.container -->
-      </section>
-		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-		<script>
-			AOS.init();
-		</script>
-		<!-- Services -->
-			<div class="row text-center">
-				<div class="col-lg-10 mx-auto">
-<!--					<h2  class="OurServices" style="cursor: default;">Our Services </h2> -->
-
-<!--
-<div style="display: inline; border-spacing: 100px;">
-	<div class="circle-text1">
-		<a  class="showSingle" target="1">English Courses</a>
-	</div>
-	<div class="circle-text2">
-		<a  class="showSingle" target="2">French Courses</a>
-	</div>
-</div>
--->
-<br />
-<div class="animated fadeIn">
-            <div class="row">
-              <div class="col-md-4 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-5x">
-                    <i class="icon-magic-wand"></i>
-                  </span>
-                  <h4>
-                    <strong>What's your size?</strong>
-                  </h4>
-                  <p>Our teachers will target your level and tailor for you an adapted learning program based on your needs and targets.</p>
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="service-item">
+                    <span class="fa-stack fa-5x">
+                      <i class="icon-puzzle"></i>
+                    </span>
+                    <h4>
+                      <strong>ABC</strong>
+                    </h4>
+                    <p>Learn the basis of grammar and build up your level with effective methods made for you to speak and understand English language.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-5x">
-                    <i class="icon-clock"></i>
-                  </span>
-                  <h4>
-                    <strong>Anytime / Anywhere</strong>
-                  </h4>
-                  <p>Our services are available from 6am to 10pm, providing you the best options to welcome a new language as a daily routine.</p>
+                <div class="col-md-3 col-sm-6">
+                  <div class="service-item">
+                    <span class="fa-stack fa-5x">
+                      <i class="icon-rocket"></i>
+                    </span>
+                    <h4>
+                      <strong>Upgrade me</strong>
+                    </h4>
+                    <p>Enhance your level towards better writing and pronunciation according to your social and professional needs.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-5x">
-                    <i class="icon-graduation"></i>
-                  </span>
-                  <h4>
-                    <strong>Come as you are</strong>
-                  </h4>
-                  <p>From beginners to advanced, HSC or DELF students, our tutors are qualified native french speakers who will help you achieve your goals </p>
+                <div class="col-md-3 col-sm-6">
+                  <div class="service-item">
+                    <span class="fa-stack fa-5x">
+                      <i class="icon-globe-alt"></i>
+                    </span>
+                    <h4>
+                      <strong>Found in Translation</strong>
+                    </h4>
+                    <p>Need to update yourself in Sydney? Focused on professional and personal targets, our intensive tutoring helps you achieve your Australian transition right away.</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="service-item">
+                    <span class="fa-stack fa-5x">
+                      <i class="icon-badge"></i>
+                    </span>
+                    <h4>
+                      <strong>Examinator</strong>
+                    </h4>
+                    <p>A preparation course for students who wish to undertake IELTS or TOEFL tests.</p>
+                  </div>
                 </div>
               </div>
             </div>
-</div>
-<br>
-<br>
-
-<div class="item" data-aos="fade-up">
-	<h2>Choose a course</h2>
-		<a  href="#services" id="showSingle1" class="showSingle" target="1">English</a>
-		<a  href="#services" id="showSingle2" class="showSingle" target="2">French</a>
-</div>
-<section id="services" class="services bg-primary text-white">
-	<div id="div1" class="targetDiv" style="display: none !important;">
-		<div class="animated fadeIn">
-			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="service-item">
-						<span class="fa-stack fa-5x">
-							<i class="icon-puzzle"></i>
-						</span>
-						<h4>
-							<strong>ABC</strong>
-						</h4>
-						<p>Learn the basis of grammar and build up your level with effective methods made for you to speak and understand English language.</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="service-item">
-						<span class="fa-stack fa-5x">
-							<i class="icon-rocket"></i>
-						</span>
-						<h4>
-							<strong>Upgrade me</strong>
-						</h4>
-            <p>Enhance your level towards better writing and pronunciation according to your social and professional needs.</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="service-item">
-						<span class="fa-stack fa-5x">
-              <i class="icon-globe-alt"></i>
-						</span>
-						<h4>
-							<strong>Found in Translation</strong>
-						</h4>
-						<p>Need to update yourself in Sydney? Focused on professional and personal targets, our intensive tutoring helps you achieve your Australian transition right away.</p>
-					</div>
-				</div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-item">
-            <span class="fa-stack fa-5x">
-              <i class="icon-badge"></i>
-            </span>
-            <h4>
-              <strong>Examinator</strong>
-            </h4>
-            <p>A preparation course for students who wish to undertake IELTS or TOEFL tests.</p>
+          </div>
+          <div id="div2" class="targetDiv" style="display: none !important;">
+            <div class="animated fadeIn">
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+                  <div class="service-item">
+                    <span class="fa-stack fa-5x">
+                      <i class="icon-emotsmile"></i>
+                    </span>
+                    <h4>
+                      <strong>Children</strong>
+                    </h4>
+                    <p>Writing and reading lessons</p>
+                    <p>Culture discovery</p>
+                    <p>Playful language practice</p>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-5x">
+                    <i class="icon-book-open"></i>
+                  </span>
+                  <h4>
+                    <strong>Students</strong>
+                  </h4>
+                  <p>DELF, HSC, and IB students</p>
+                  <p>Academic and homework support</p>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-5x">
+                  <p>18+</p>
+                </span>
+                <h4>
+                  <strong>Adults</strong>
+                </h4>
+                <p>Trip planning</p>
+                <p>Literature workshops</p>
+                <p>Cooking and wine workshops</p>
+              </ul>
+            </div>
           </div>
         </div>
-			</div>
-		</div>
-	</div>
-	<div id="div2" class="targetDiv" style="display: none !important;">
-	<div class="animated fadeIn">
-		<div class="row">
-			<div class="col-md-4 col-sm-6">
-				<div class="service-item">
-					<span class="fa-stack fa-5x">
-						<i class="icon-emotsmile"></i>
-					</span>
-					<h4>
-						<strong>Children</strong>
-					</h4>
-<!--					<p>Writing and reading lessons/culture discovery/playful language practice.</p>
-					<ul style="list-style-position: outside; text-apgn: center; display: inpne-block;"> -->
-						<p>Writing and reading lessons</p>
-						<p>Culture discovery</p>
-						<p>Playful language practice</p>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="service-item">
-					<span class="fa-stack fa-5x">
-						<i class="icon-book-open"></i>
-					</span>
-					<h4>
-						<strong>Students</strong>
-					</h4>
-<!--					<p>DELF, HSC, IB students/academic and homework support.</p>
-          <ul style="pst-style-position: outside; text-apgn: center; display: inpne-block;"> -->
-            <p>DELF, HSC, and IB students</p>
-            <p>Academic and homework support</p>
-          </ul>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="service-item">
-					<span class="fa-stack fa-5x">
-						<p>18+</p>
-					</span>
-					<h4>
-						<strong>Adults</strong>
-					</h4>
-<!--					<p>All levels lessons/trip planning/literature workshop/cooking workshop/wine workshop.</p>
-          <ul style="list-style-position: outside; text-align: center; display: inline-block;"> -->
-            <p>Trip planning</p>
-            <p>Literature workshops</p>
-            <p>Cooking and wine workshops</p>
-          </ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Footer -->
-<section id="contact">
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10 mx-auto text-center">
-          <h4>
-            <hr class="styled">
-            <br />
-            <strong>fluentr</strong>
-					</h4>
-					<ul class="list-unstyled">
-						<li>
-							<i class="icon-phone fa-fw"></i>
-							+61 0411 524 844
-						</li>
-						<li>
-							<i class="icon-envelope fa-fw"></i>
-							<a style="color: black" href="mailto:contact@fluentr.com.au">contact@fluentr.com.au</a>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item">
-							<a href="https://www.facebook.com/fluentr/" target="_blank">
-								<i class="icon-social-facebook fa-fw fa-3x"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="https://www.instagram.com/fluentr/" target="_blank">
-								<i class="icon-social-instagram fa-fw fa-3x"></i>
-							</a>
-						</li>
-						<!--
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fa fa-dribbble fa-fw fa-3x"></i>
-							</a>
-						</li>
-					</ul>
-					-->
-<!--					<hr class="small"> -->
-					<!--            <p class="text-muted">Copyright &copy; Your Website 2017</p> -->
-				</div>
-			</div>
-		</div>
-    <!--		<a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger"> -->
-	<!--		<i class="fa fa-chevron-up fa-fw fa-1x"></i>
-		</a>
-	</footer>
-	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      </div>
+    </div>
+    </section>
+    <!-- Footer -->
+    <section id="contact">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+              <h4>
+                <hr class="styled">
+                <br />
+                <strong>fluentr</strong>
+              </h4>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="icon-phone fa-fw"></i>
+                  +61 0411 524 844
+                </li>
+                <li>
+                  <i class="icon-envelope fa-fw"></i>
+                  <a style="color: black" href="mailto:contact@fluentr.com.au">contact@fluentr.com.au</a>
+                </li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/fluentr/" target="_blank">
+                    <i class="icon-social-facebook fa-fw fa-3x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/fluentr/" target="_blank">
+                    <i class="icon-social-instagram fa-fw fa-3x"></i>
+                  </a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            <!-- Plugin JavaScript -->
-            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-            <!-- Custom scripts for this template -->
-            <script src="js/stylish-portfolio.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.js"></script>
 
-            <script src="js/buttons.js"></script>
-            <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-          </body>
-        </html>
+    <script src="js/buttons.js"></script>
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+  </body>
+</html>
