@@ -1,3 +1,3 @@
 # FLUENTR
 
-Built off BlackrockDigital's template: https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio
+Initially built off BlackrockDigital's template (now it's heavily modified): https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio
